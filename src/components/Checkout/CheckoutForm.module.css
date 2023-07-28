@@ -1,0 +1,44 @@
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.checkout-form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.checkout-form button:hover,
+.checkout-form button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.checkout-form .button--alt {
+  color: #8a2b06;
+}
+
+.checkout-form .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.checkout-form .button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #ff0000; /* Red text color for error messages */
+  font-size: 12px; /* Adjust font size as needed */
+  text-align: center;
+}
